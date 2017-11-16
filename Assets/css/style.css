@@ -60,8 +60,8 @@ body {
 	background-color: #4aaaa5;
 	text-align: center;
 	color: white;
-	margin-top: 40px;
-	height: 35px;
+	margin-top: 55px;
+	height: 27px;
 	bottom: 30px;
 }
 
@@ -70,7 +70,28 @@ body {
 }
 
 #box1 {
-	background-image: url('http://reelbigmedia.com/wp-content/uploads/photomoney.jpg');
+	background-image: url('https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg');
+	background-size: cover;
+}
+#box2 {
+	background-image: url('https://static.photocdn.pt/images/articles/2017/04/28/iStock-516651882.jpg');
+	background-size: cover;
+}
+#box3 {
+	background-image: url('https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg');
+	background-size: cover;
+	
+}
+#box4 {
+	background-image: url('https://hdwallsource.com/img/2014/8/landscape-28214-28936-hd-wallpapers.jpg');
+	background-size: cover;
+}
+#box5 {
+	background-image: url('http://majoumo.com/images/landscape/landscape3.jpg');
+	background-size: cover;
+}
+#box6 {
+	background-image: url('http://environment.umn.edu/wp-content/uploads/2016/04/global_landscapes_initiative_directory_pages.jpg');
 	background-size: cover;
 }
 
