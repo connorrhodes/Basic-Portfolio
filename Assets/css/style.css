@@ -144,6 +144,7 @@ a:hover {
 	color: #0f1212;
 	
 }
+
 #submitButton {
 	background-color: #4aaaa5;
 	height: 40px;
@@ -155,4 +156,28 @@ a:hover {
 i:hover {
 	
 	color: #4aaaa5;
+}
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  
+
+  /* The wrapper's width will be 600px */
+  body {
+    width: 100%;
+	padding: 20px;
+	margin: 10px;
+  }
+  #aboutMe {
+	  margin: 10px;
+  }
+  #connor {
+	  margin: 0px 10px 10px 20px;
+	  
+  }
+  #indexLinks {
+	  margin: 20px 30px 20px 0px;;
+  }
+  #contactInfo {
+	  margin: 10px 130px 130px 130px;
+  }
 }
