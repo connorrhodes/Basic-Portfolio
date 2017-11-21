@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+	<script src="https://use.fontawesome.com/ee4451749c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
+</head>
+
+<body>
+    <header>
+        <h1 id="connor">Connor</h1>
+        <section id="indexLinks">
+            <a href="index.html" alt="About">About</a>
+            <a href="contact.html" alt="Contact">Contact</a>
+            <a href="portfolio.html" alt="Portfolio">Portfolio</a>
+            <a href="Bootstrap/index.html" alt="Bootstrap">Bootstrap</a>
+        </section>
+    </header>
+
+    <div>
+
+        <section id="aboutMe">
+
+            <h2 id="aboutMeTitle">JavaScript</h2>
+            <script type="text/javascript">
+                var whatsUp = confirm("What's up");
+                var pickUp = confirm("You picking up what i'm putting down?");
+
+                if (whatsUp === true){
+                    alert("Cool");
+                } else if (pickUp === true) {
+                    alert("Neato");
+                } else {
+                    alert("You are totally harshing my morning mellow right now.");
+                }
+
+                var array1 = ["Bacon" , "Eggs" , "English Muffins" , "Spark"];
+
+                for(var i = 0; i < array1.length; i++){
+                    document.write("I like " + array1[i] + "<br>");
+                }
+            
+            </script>
+            
+        </section>
+
+        <section id="contactInfo">
+            <h2 id="contactInfoTitle">Connect With Me</h2>
+				<a href="https://github.com/connorrhodes?tab=repositories">
+				<i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+				
+				<a href="https://www.linkedin.com/in/connor-rhodes-6abb44114/">
+				<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+				
+				<a href="https://stackoverflow.com/users/8934891/c-rhodes">
+				<i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i></a>
+                
+            
+        </section>
+    </div>
+
+</body>
+<footer>
+    <h3>Copyright Connor Rhodes Incorporated</h3>
+</footer>
+
+</html>
